@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: #222;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #00feba, #5b545a);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+  filter: drop-shadow(1px 1px 10px #0000004f);
+}
+
+.search button {
+  border: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(1px 1px 10px #0000004f);
+}
+
+.ico-clima {
+  width: 200px;
+  margin: 20px;
+}
+
+.clima h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.clima h2 {
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+.container-temp-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-temp-img img {
+  width: 70px;
+}
+
+.detalles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.condi {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.detalles .img-humedad {
+  width: 80px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.detalles .img-viento {
+  width: 80px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.humedad {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.viento {
+  font-size: 25px;
+  font-weight: lighter;
+}

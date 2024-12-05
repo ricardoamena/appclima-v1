@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>App Clima</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input
+          type="text"
+          id="ciudad-input"
+          placeholder="Ingrese la ciudad"
+          spellcheck="false"
+        />
+        <button id="buscar">
+          <img src="/assets/search.svg" alt="Buscar" />
+        </button>
+      </div>
+      <div class="clima">
+        <img
+          src="/assets/cloudy_5904025.png"
+          alt=""
+          class="ico-clima"
+          id="clima-icon"
+        />
+        <div class="container-temp-img">
+          <h1 class="temp" id="temperatura">22°c</h1>
+          <img src="/assets/temperature_5903628.png" alt="" class="temp" />
+        </div>
+        <h2 class="ciudad" id="ubicacion">Buenos Aires</h2>
+        <div class="detalles">
+          <div class="condi">
+            <img
+              src="/assets/humidity_5903613.png"
+              alt=""
+              class="img-humedad"
+            />
+            <div>
+              <p class="humedad" id="humedad">50%</p>
+              <p>Humedad</p>
+            </div>
+          </div>
+          <div class="condi">
+            <img src="/assets/wind_5903977.png" alt="" class="img-viento" />
+            <div>
+              <p class="viento" id="velocidad">-- km/h</p>
+              <p>Vel. Viento</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
