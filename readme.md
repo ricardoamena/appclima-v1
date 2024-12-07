@@ -66,6 +66,6 @@ Este proyecto está bajo la Licencia MIT.
 
 ## Contacto
 
-Nombre: Ricardo Alexandro Mena
-Correo: ricardoamena@gmail.com
-GitHub: [Ricardo Alexandro Mena](https://github.com/ricardoamena)
+- [x] Nombre: Ricardo Alexandro Mena
+- [x] Correo: ricardoamena@gmail.com
+- [x] GitHub: [Ricardo Alexandro Mena](https://github.com/ricardoamena)
