@@ -68,5 +68,5 @@ document.addEventListener("DOMContentLoaded", async () => {
       await obtenerClima(ciudad);
       resetInput();
     }
-  });d
+  });
 });
